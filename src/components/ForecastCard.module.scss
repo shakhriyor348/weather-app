@@ -1,0 +1,95 @@
+.forecast {
+    margin-top: 70px;
+    width:16%;
+    height:200px;
+    background: rgba(214, 214, 214, 0.4);
+    box-shadow: 3px -2px 14px -1px rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 4%;
+}
+
+.forecast:active {
+    background: #30ba8f;
+}
+
+.green {
+    background: #30ba8f;
+    box-shadow: 3px -2px 14px -1px #30ba8f;
+}
+
+.forecast:hover {
+    cursor: pointer;
+}
+
+.forecast--picture {
+    height:70px;
+    width:100px;
+}
+
+.forecast--temp {
+    font-family: 'Roboto';
+    font-size:25px;
+    margin-top:10px;
+
+}
+
+.forecast--day {
+    font-family: 'Roboto';
+    margin-top: 20px;
+    font-size:24px;
+    text-align: center;
+}
+
+.forecast--dayOfWeek {
+    margin-top:5px;
+
+}
+
+@media (max-width: 1200px) {
+    .forecast {
+        text-align: center;
+        margin-top:20px;
+        width:85%;
+        height: 60px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .forecast--dayOfWeek {
+        font-size: 24px;
+        margin:0;
+        text-align: right;
+        margin-right: 10px;
+    }
+
+    .forecast div {
+        width:200px;
+    }
+    .forecast--temp {
+        margin-top:0;
+    }
+    .forecast--day {
+        margin-top:0;
+
+    }
+}
+
+@media (max-width: 800px) {
+    .forecast {
+        width: 93%;
+        margin-left: 4%;
+    }
+    .forecast--dayOfWeek {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .forecast--dayOfWeek {
+        display: none;
+    }
+}

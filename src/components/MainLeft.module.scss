@@ -1,0 +1,205 @@
+.main--left {
+    width: 62%;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.symbol {
+    font-size: 120px;
+    position: absolute;
+    top: -15px;
+}
+
+.celsium-holder {
+    position: relative;
+}
+
+.celsium {
+    font-size: 100px;
+    position: absolute;
+    left: 40px;
+    top: 8px;
+}
+
+.degrees {
+    font-weight: 100;
+    font-size: 164px;
+    letter-spacing: 0;
+    margin:20px 0;
+    display: flex;
+}
+
+.date {
+    margin: 40px 0 40px 0;
+    font-size: 40px;
+}
+
+.day {
+    font-size: 36px;
+    margin-right: 40px;
+    padding-top:5px;
+}
+
+.time {
+    font-size: 50px;
+}
+
+.daytime {
+    margin-bottom:40px;
+    display: flex;
+}
+
+.additional {
+    display: flex;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    text-shadow: -1.39839px 2.09758px 0.699193px rgba(0, 0, 0, 0.1);
+}
+
+.additional div {
+    padding-right: 20px;
+}
+
+.additional--block {
+    position: relative;
+}
+
+.weather--city {
+    font-size: 40px;
+}
+.additional--img {
+    position: absolute;
+
+    height:25px;
+    width: 25px;
+    margin-right: 10px;
+}
+
+.additional span {
+    margin-left:40px;
+}
+
+.weather--main {
+    margin-top:20px;
+    display: flex;
+}
+
+.break {
+    font-size: 30px;
+}
+
+.cardsholder {
+    display: flex;
+}
+
+.main--picture {
+    margin-left: 100px;
+    height:200px;
+
+}
+@media (max-width: 525px) {
+    .weather--main {
+
+
+    }
+    .main--picture {
+
+        width:150px;
+
+    }
+}
+@media (max-width: 1025px) {
+    .adaptive--degrees {
+        display: flex;
+        flex-direction: row;
+
+    }
+    .degrees {
+        font-size: 100px;
+    }
+    .date {
+        font-size:30px;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    .day {
+        margin-top:0px;
+    }
+    .symbol {
+        font-size: 80px;
+        top: -20px;
+    }
+    .celsium {
+        font-size: 70px;
+        left: 30px;
+    }
+    .daytime {
+        position: relative;
+    }
+    .time {
+        position: absolute;
+        left: 200px;
+        top:-33px;
+        width: 250px;
+    }
+    .additional {
+        flex-direction: column;
+    }
+    .break {
+        display: none;
+    }
+    .additional--block {
+        margin-top:10px;
+    }
+    .main--picture {
+        height: 140px;
+    }
+
+}
+
+
+
+@media (max-width: 1200px) {
+    .cardsholder {
+        flex-direction: column;
+        margin-top:20px;
+        align-items: center;
+        margin-bottom:20px;
+    }
+    .main--left {
+        padding-left: 2%;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .main--left {
+        width:96%;
+        padding-left:2%;
+    }
+    .time {
+        left: 0;
+        top: 50px;
+    }
+    .additional {
+        margin-top: 40px;
+    }
+    .cardsholder {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 360px) {
+    .weather--main {
+        flex-direction: column-reverse;
+    }
+    .main--picture {
+        margin-left:0;
+    }
+    .degrees {
+        margin-top:0;
+    }
+}
