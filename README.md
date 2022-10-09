@@ -27,5 +27,5 @@ npm start
 
 ## Authors
 
-* **[Nikita Politikov](https://vk.com/nikitapolitikov)** -  - [dokeeer](https://github.com/dokeeer)
-* **Ilya Shvedov** -  - [kondr](https://github.com/Kondr4589)
+* **[Shakhriyor]** 
+
