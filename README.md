@@ -3,7 +3,7 @@ Put a ★ if you liked the project!
 ```
 Weather app (full adaptive)
 ```
-* **[Github Pages](https://dokeeer.github.io/weather-project/)** 
+* **[Github Pages](https://shakhriyor348.github.io/weather-app/)** 
 ![preview](https://user-images.githubusercontent.com/88163502/187239591-b1198e28-893e-4939-b925-6778703edb3f.png)
 
 
